@@ -12,6 +12,11 @@ class TaskController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function login365(){
+        return "1234";
+    }
+
     public function index()
     {
         //

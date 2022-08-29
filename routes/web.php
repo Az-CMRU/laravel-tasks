@@ -58,3 +58,5 @@ Route::delete('/task/{id}', function ($id) {
 
     return redirect('/');
 });
+
+Route::get('/login-365', 'App\Http\Controllers\TaskController@login365');
